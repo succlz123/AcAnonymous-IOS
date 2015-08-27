@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20A721E21B8E9EBF0077516E /* LeftMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A721E11B8E9EBF0077516E /* LeftMenuView.m */; };
 		20EB1E421B8D96AC0051F1B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EB1E411B8D96AC0051F1B6 /* main.m */; };
 		20EB1E451B8D96AC0051F1B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EB1E441B8D96AC0051F1B6 /* AppDelegate.m */; };
 		20EB1E481B8D96AC0051F1B6 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EB1E471B8D96AC0051F1B6 /* MeViewController.m */; };
@@ -24,6 +25,8 @@
 		20EB1E9A1B8DA4D60051F1B6 /* search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20EB1E961B8DA4D60051F1B6 /* search@3x.png */; };
 		20EB1E9B1B8DA4D60051F1B6 /* start@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20EB1E971B8DA4D60051F1B6 /* start@3x.png */; };
 		20EB1E9D1B8DA5690051F1B6 /* me@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20EB1E9C1B8DA5690051F1B6 /* me@3x.png */; };
+		38CA26097155B28ABE6AB5C0 /* libPods-AcAnonymous.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CA2E308E427FBB5776CF75 /* libPods-AcAnonymous.a */; };
+		38CA29268C42CEAEE32E7230 /* AppHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CA27F43C54CCCD9B4B8F4F /* AppHttpClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20A721E01B8E9EBF0077516E /* LeftMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuView.h; sourceTree = "<group>"; };
+		20A721E11B8E9EBF0077516E /* LeftMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuView.m; sourceTree = "<group>"; };
 		20EB1E3C1B8D96AC0051F1B6 /* AcAnonymous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcAnonymous.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20EB1E401B8D96AC0051F1B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20EB1E411B8D96AC0051F1B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +71,11 @@
 		20EB1E961B8DA4D60051F1B6 /* search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@3x.png"; sourceTree = "<group>"; };
 		20EB1E971B8DA4D60051F1B6 /* start@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "start@3x.png"; sourceTree = "<group>"; };
 		20EB1E9C1B8DA5690051F1B6 /* me@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me@3x.png"; sourceTree = "<group>"; };
+		32310C290CA0041EB20D2099 /* Pods-AcAnonymous.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcAnonymous.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcAnonymous/Pods-AcAnonymous.release.xcconfig"; sourceTree = "<group>"; };
+		38CA27F43C54CCCD9B4B8F4F /* AppHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppHttpClient.m; sourceTree = "<group>"; };
+		38CA2E308E427FBB5776CF75 /* libPods-AcAnonymous.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AcAnonymous.a"; path = "../../Library/Caches/appCode31/DerivedData/AcAnonymous-e9795/Build/Products/Debug-iphonesimulator/libPods-AcAnonymous.a"; sourceTree = "<group>"; };
+		38CA2FB94C8871161CC96E18 /* AppHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppHttpClient.h; sourceTree = "<group>"; };
+		BFA4DB539BF4467E0B790249 /* Pods-AcAnonymous.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcAnonymous.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcAnonymous/Pods-AcAnonymous.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CA26097155B28ABE6AB5C0 /* libPods-AcAnonymous.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +103,7 @@
 				20EB1E3E1B8D96AC0051F1B6 /* AcAnonymous */,
 				20EB1E5B1B8D96AC0051F1B6 /* AcAnonymousTests */,
 				20EB1E3D1B8D96AC0051F1B6 /* Products */,
+				3A6324CC3924EBE80A18F7D1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,9 +124,9 @@
 				20EB1E431B8D96AC0051F1B6 /* AppDelegate.h */,
 				20EB1E441B8D96AC0051F1B6 /* AppDelegate.m */,
 				20EB1E4C1B8D96AC0051F1B6 /* Main.storyboard */,
-				20EB1E4F1B8D96AC0051F1B6 /* Images.xcassets */,
 				20EB1E511B8D96AC0051F1B6 /* LaunchScreen.xib */,
 				20EB1E3F1B8D96AC0051F1B6 /* Supporting Files */,
+				38CA2848935269CE066BEAB4 /* Support */,
 			);
 			path = AcAnonymous;
 			sourceTree = "<group>";
@@ -133,6 +145,7 @@
 			children = (
 				20EB1E5E1B8D96AC0051F1B6 /* AcAnonymousTests.m */,
 				20EB1E5C1B8D96AC0051F1B6 /* Supporting Files */,
+				38CA20FC703DAD46CEE85230 /* Frameworks */,
 			);
 			path = AcAnonymousTests;
 			sourceTree = "<group>";
@@ -161,6 +174,8 @@
 				20EB1E6A1B8D970C0051F1B6 /* Home */,
 				20EB1E771B8D99990051F1B6 /* MainTabBarController.h */,
 				20EB1E781B8D99990051F1B6 /* MainTabBarController.m */,
+				20A721E01B8E9EBF0077516E /* LeftMenuView.h */,
+				20A721E11B8E9EBF0077516E /* LeftMenuView.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -201,12 +216,48 @@
 		20EB1E701B8D978F0051F1B6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				20EB1E4F1B8D96AC0051F1B6 /* Images.xcassets */,
 				20EB1E9C1B8DA5690051F1B6 /* me@3x.png */,
 				20EB1E941B8DA4D60051F1B6 /* home@3x.png */,
 				20EB1E961B8DA4D60051F1B6 /* search@3x.png */,
 				20EB1E971B8DA4D60051F1B6 /* start@3x.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		38CA20FC703DAD46CEE85230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38CA2E308E427FBB5776CF75 /* libPods-AcAnonymous.a */,
+			);
+			name = Frameworks;
+			path = ../../AcAnonymous;
+			sourceTree = "<group>";
+		};
+		38CA2848935269CE066BEAB4 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				38CA2EDD616964B77DB1AE63 /* Http */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		38CA2EDD616964B77DB1AE63 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				38CA27F43C54CCCD9B4B8F4F /* AppHttpClient.m */,
+				38CA2FB94C8871161CC96E18 /* AppHttpClient.h */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		3A6324CC3924EBE80A18F7D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFA4DB539BF4467E0B790249 /* Pods-AcAnonymous.debug.xcconfig */,
+				32310C290CA0041EB20D2099 /* Pods-AcAnonymous.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20EB1E621B8D96AC0051F1B6 /* Build configuration list for PBXNativeTarget "AcAnonymous" */;
 			buildPhases = (
+				EAA14D0FA7C5BBF2D09B5664 /* Check Pods Manifest.lock */,
 				20EB1E381B8D96AC0051F1B6 /* Sources */,
 				20EB1E391B8D96AC0051F1B6 /* Frameworks */,
 				20EB1E3A1B8D96AC0051F1B6 /* Resources */,
+				B093DCB3EA20955D0455223F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -308,6 +361,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B093DCB3EA20955D0455223F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcAnonymous/Pods-AcAnonymous-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA14D0FA7C5BBF2D09B5664 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20EB1E381B8D96AC0051F1B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -322,6 +408,8 @@
 				20EB1E481B8D96AC0051F1B6 /* MeViewController.m in Sources */,
 				20EB1E7C1B8D9A900051F1B6 /* HomeViewController.m in Sources */,
 				20EB1E421B8D96AC0051F1B6 /* main.m in Sources */,
+				38CA29268C42CEAEE32E7230 /* AppHttpClient.m in Sources */,
+				20A721E21B8E9EBF0077516E /* LeftMenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,21 +535,25 @@
 		};
 		20EB1E631B8D96AC0051F1B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA4DB539BF4467E0B790249 /* Pods-AcAnonymous.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AcAnonymous/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
 		};
 		20EB1E641B8D96AC0051F1B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32310C290CA0041EB20D2099 /* Pods-AcAnonymous.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AcAnonymous/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};

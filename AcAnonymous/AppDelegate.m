@@ -45,16 +45,16 @@
     searchNavigationController.tabBarItem.title = @"搜索";
     meNavigationController.tabBarItem.title = @"我的";
 
-    homeNavigationController.tabBarItem.image= [UIImage imageNamed:@"home"];
-    searchNavigationController.tabBarItem.image= [UIImage imageNamed:@"search"];
-    meNavigationController.tabBarItem.image= [UIImage imageNamed:@"me"];
+    homeNavigationController.tabBarItem.image = [UIImage imageNamed:@"home"];
+    searchNavigationController.tabBarItem.image = [UIImage imageNamed:@"search"];
+    meNavigationController.tabBarItem.image = [UIImage imageNamed:@"me"];
 
 //    NSArray *controllers= [NSArray arrayWithObjects:homeNavigationController,searchNavigationController,meNavigationController,nil];
 //    [mainTabBarController addChildViewController:homeNavigationController];
 //    [mainTabBarController addChildViewController:searchNavigationController];
 //    [mainTabBarController addChildViewController:meNavigationController];
 
-    mainTabBarController.viewControllers=@[homeNavigationController,searchNavigationController,meNavigationController];
+    mainTabBarController.viewControllers = @[homeNavigationController, searchNavigationController, meNavigationController];
 
     //设置window为应用程序主窗口并设为可见
     [self.window makeKeyAndVisible];
