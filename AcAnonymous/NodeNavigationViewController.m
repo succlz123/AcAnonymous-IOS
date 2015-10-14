@@ -1,37 +1,35 @@
 //
-//  HomeNavigationController.m
+//  NodeNavigationViewController.m
 //  AcAnonymous
 //
-//  Created by succlz123 on 15/8/26.
-//  Copyright (c) 2015年 succlz123. All rights reserved.
+//  Created by succlz123 on 15/10/8.
+//  Copyright © 2015年 succlz123. All rights reserved.
 //
 
-#import "HomeNavigationController.h"
-#import "LeftMenuView.h"
+#import "NodeNavigationViewController.h"
 
-@interface HomeNavigationController ()
+@interface NodeNavigationViewController ()
 
 @end
 
-@implementation HomeNavigationController
+@implementation NodeNavigationViewController
 
 - (void)loadView {
     [super loadView];
-    self.tabBarItem.title = @"首页";
-    self.tabBarItem.image = [UIImage imageNamed:@"home"];
-}
+    self.tabBarItem.title = @"节点";
+    self.tabBarItem.image = [UIImage imageNamed:@"node"];
 
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
-
 
 /*
 #pragma mark - Navigation

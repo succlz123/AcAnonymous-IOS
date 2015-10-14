@@ -14,6 +14,13 @@
 
 @implementation SearchNavigationController
 
+- (void)loadView {
+    [super loadView];
+    self.tabBarItem.title = @"搜索";
+    self.tabBarItem.image = [UIImage imageNamed:@"search"];
+
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

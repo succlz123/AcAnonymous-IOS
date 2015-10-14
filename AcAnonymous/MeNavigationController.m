@@ -14,6 +14,13 @@
 
 @implementation MeNavigationController
 
+- (void)loadView {
+    [super loadView];
+    self.tabBarItem.title = @"个人";
+    self.tabBarItem.image = [UIImage imageNamed:@"me"];
+
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.

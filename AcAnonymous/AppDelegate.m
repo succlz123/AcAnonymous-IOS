@@ -8,19 +8,14 @@
 
 #import "AppDelegate.h"
 #import "MainTabBarController.h"
-#import "HomeNavigationController.h"
-#import "HomeViewController.h"
-#import "SearchViewController.h"
-#import "MeViewController.h"
-#import "MeNavigationController.h"
-#import "SearchNavigationController.h"
+
 
 @interface AppDelegate ()
+
 
 @end
 
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //程序启动之后执行，只有在第一次程序启动后才执行，以后不再执行；
@@ -33,28 +28,6 @@
     MainTabBarController *mainTabBarController = [[MainTabBarController alloc] init];
     self.window.rootViewController = mainTabBarController;
 
-    HomeViewController *homeViewController = [[HomeViewController alloc] init];
-    SearchViewController *searchViewController = [[SearchViewController alloc] init];
-    MeViewController *meViewController = [[MeViewController alloc] init];
-
-    HomeNavigationController *homeNavigationController = [[HomeNavigationController alloc] initWithRootViewController:homeViewController];
-    SearchNavigationController *searchNavigationController = [[SearchNavigationController alloc] initWithRootViewController:searchViewController];
-    MeNavigationController *meNavigationController = [[MeNavigationController alloc] initWithRootViewController:meViewController];
-
-    homeNavigationController.tabBarItem.title = @"首页";
-    searchNavigationController.tabBarItem.title = @"搜索";
-    meNavigationController.tabBarItem.title = @"我的";
-
-    homeNavigationController.tabBarItem.image = [UIImage imageNamed:@"home"];
-    searchNavigationController.tabBarItem.image = [UIImage imageNamed:@"search"];
-    meNavigationController.tabBarItem.image = [UIImage imageNamed:@"me"];
-
-//    NSArray *controllers= [NSArray arrayWithObjects:homeNavigationController,searchNavigationController,meNavigationController,nil];
-//    [mainTabBarController addChildViewController:homeNavigationController];
-//    [mainTabBarController addChildViewController:searchNavigationController];
-//    [mainTabBarController addChildViewController:meNavigationController];
-
-    mainTabBarController.viewControllers = @[homeNavigationController, searchNavigationController, meNavigationController];
 
     //设置window为应用程序主窗口并设为可见
     [self.window makeKeyAndVisible];
@@ -83,5 +56,6 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
 
 @end

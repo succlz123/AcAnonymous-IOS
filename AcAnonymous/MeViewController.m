@@ -14,9 +14,14 @@
 
 @implementation MeViewController
 
+- (void)loadView {
+    [super loadView];
+
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = @"我的";
+    self.navigationItem.title = @"个人";
 }
 
 - (void)didReceiveMemoryWarning {

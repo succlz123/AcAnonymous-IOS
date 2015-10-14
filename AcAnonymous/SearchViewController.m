@@ -14,6 +14,11 @@
 
 @implementation SearchViewController
 
+- (void)loadView {
+    [super loadView];
+
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"搜索";
